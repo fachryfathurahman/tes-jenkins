@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Push') {
       steps {
-        sh 'docker push devopsinfotechumm/dp-alpine:$TAG'
+        sh 'docker push devopsinfotechumm/dp-alpine:latest'
       }
     }
   }
